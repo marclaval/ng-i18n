@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6895b22b2322e6b58565f1733f3ecb2023a4f32d" datatype="html">
+        <source>Hello World</source>
+          <target>Salut tout le monde</target>
+        <note priority="1" from="description">An introduction header for this sample</note>
+        <note priority="1" from="meaning">User welcome</note>
+      </trans-unit>
+      <trans-unit id="637791acd897a272dcc7a90840d649736b51ec7d" datatype="html">
+        <source>
+Counter: <x id="INTERPOLATION"/><x id="LINE_BREAK" ctype="lb"/>
+</source>
+          <target>Compteur: <x id="INTERPOLATION"/><x id="LINE_BREAK" ctype="lb"/></target>
+        <note priority="1" from="description">Display the counter</note>
+      </trans-unit>
+      <trans-unit id="248ca68f11990fd0eb1fa78969f2d341bdd33889" datatype="html">
+        <source>
+That&apos;s easy!
+</source>
+          <target>C&apos;est facile!</target>
+        <note priority="1" from="description">Tell the user that i18n is easy</note>
+      </trans-unit>
+      <trans-unit id="5b0234cf6913fb97de3c4e35391f6b204f6c8e4f" datatype="html">
+        <source>More stuff</source>
+          <target>Plus</target>
+      </trans-unit>
+      <trans-unit id="13b43735e098b4f03637718a114e10f6faa1b5d9" datatype="html">
+        <source>Angular 2 logo</source>
+          <target>Le logo Angular</target>
+        <note priority="1" from="description">bar</note>
+        <note priority="1" from="meaning">foo</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

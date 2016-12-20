@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE messagebundle [
+<!ELEMENT messagebundle (msg)*>
+<!ATTLIST messagebundle class CDATA #IMPLIED>
+
+<!ELEMENT msg (#PCDATA|ph|source)*>
+<!ATTLIST msg id CDATA #IMPLIED>
+<!ATTLIST msg seq CDATA #IMPLIED>
+<!ATTLIST msg name CDATA #IMPLIED>
+<!ATTLIST msg desc CDATA #IMPLIED>
+<!ATTLIST msg meaning CDATA #IMPLIED>
+<!ATTLIST msg obsolete (obsolete) #IMPLIED>
+<!ATTLIST msg xml:space (default|preserve) "default">
+<!ATTLIST msg is_hidden CDATA #IMPLIED>
+
+<!ELEMENT source (#PCDATA)>
+
+<!ELEMENT ph (#PCDATA|ex)*>
+<!ATTLIST ph name CDATA #REQUIRED>
+
+<!ELEMENT ex (#PCDATA)>
+]>
+<messagebundle>
+  <msg id="7690519485524172837" desc="An introduction header for this sample" meaning="User welcome">Hello World</msg>
+  <msg id="702966600317335842" desc="Display the counter">
+Counter: <ph name="INTERPOLATION"/><ph name="LINE_BREAK"><ex>&lt;br&gt;</ex></ph>
+</msg>
+  <msg id="5524608537853632168" desc="Tell the user that i18n is easy">
+That&apos;s easy!
+</msg>
+  <msg id="5615257310526726876">More stuff</msg>
+  <msg id="2053428964390767507" desc="bar" meaning="foo">Angular 2 logo</msg>
+</messagebundle>
