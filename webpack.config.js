@@ -65,8 +65,7 @@ module.exports = function makeWebpackConfig() {
       // Support for .ts files.
       {
         test: /\.ts$/,
-        loader: '@ngtools/webpack',
-        include: [root('app'), root('node_modules')]
+        loader: '@ngtools/webpack'
       },
       // support for .html as raw text
       {test: /\.html$/, loader: 'raw-loader'}

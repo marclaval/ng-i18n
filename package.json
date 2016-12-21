@@ -1,8 +1,8 @@
 {
-  "name": "ng-hello-world",
+  "name": "ng-i18n",
   "version": "1.0.0-alpha.0",
   "description": "ng-hello-world",
-  "keywords": "Angular hello world",
+  "keywords": "Angular i18n",
   "author": "Marc Laval",
   "scripts": {
     "clean": "rm -rf dist/",
@@ -15,39 +15,39 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mlaval/ng-hello-world.git"
+    "url": "https://github.com/mlaval/ng-i18n.git"
   },
   "license": {
     "type": "Apache",
-    "url": "https://raw.githubusercontent.com/mlaval/ng-hello-world/master/LICENSE"
+    "url": "https://raw.githubusercontent.com/mlaval/ng-i18n/master/LICENSE"
   },
   "bugs": {
     "url": "https://github.com/mlaval/optimize-angular-app/issues"
   },
   "homepage": "https://github.com/mlaval/optimize-angular-app#readme",
   "dependencies": {
-    "@angular/core": "2.3.1",
-    "@angular/compiler": "2.3.1",
-    "@angular/common": "2.3.1",
-    "@angular/forms": "2.3.1",
-    "@angular/http": "2.3.1",
-    "@angular/platform-browser": "2.3.1",
-    "@angular/platform-browser-dynamic": "2.3.1",
-    "@angular/router": "3.3.1",
+    "@angular/core": "2.4.0",
+    "@angular/compiler": "2.4.0",
+    "@angular/common": "2.4.0",
+    "@angular/forms": "2.4.0",
+    "@angular/http": "2.4.0",
+    "@angular/platform-browser": "2.4.0",
+    "@angular/platform-browser-dynamic": "2.4.0",
+    "@angular/router": "3.4.0",
     "classlist-polyfill": "1.0.3",
     "core-js": "2.4.1",
     "reflect-metadata": "0.1.8",
-    "rxjs": "5.0.0-beta.12",
-    "zone.js": "0.7.2"
+    "rxjs": "5.0.1",
+    "zone.js": "0.7.4"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "2.3.1",
+    "@angular/compiler-cli": "2.4.0",
     "@types/node": "^6.0.38",
     "http-server": "^0.9.0",
     "typescript": "2.0.10",
     "webpack": "2.1.0-beta.27",
     "html-webpack-plugin": "2.24.1",
     "raw-loader": "0.5.1",
-    "@ngtools/webpack": "mlaval/angular-cli#ngtools-webpack-snapshot"
+    "@ngtools/webpack": "1.2.1"
   }
 }
